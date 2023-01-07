@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Common part */
+main, .banner-container, .footer-info-container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.plans-details, .flex-item{
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 40px;
+}
+.contact-button{
+  background-color: aliceblue;
+  padding: 10px 10px;
+  font-size: larger;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.contact-button a{
+  color: rgb(119, 210, 240);
+  text-decoration: none;
+}
+.contact-button:hover{
+  background-color: lightcyan;
+}
+.all-titles{
+  font-size: 50px;
+}
+
+/* top banner */
+header{
+  background-image: url(../images/banner/banner3.png);
+  mask-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.banner-container{
+  color: aliceblue;
+  text-align: end;
+  padding: 270px 70px;
+}
+
+/* body part */
+.body-container{
+  display: flex;
+  gap: 100px;
+  padding: 90px;
+  align-items: center;
+}
+.body-description{
+  padding: 17px 0;
+}
+.body-list img{
+  height: 14px;
+}
+
+/* my-plans-part*/
+.my-plans{
+  text-align: center;
+}
+.myplans-sub-title{
+  padding: 10px 0;
+}
+
+/* bonus works */
+.field{
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+.flex-item{
+  align-items: center;
+  padding: 5px;
+}
+.extra-logo{
+  height: 40px;
+}
+
+/* bottom banner */
+.bottom-banner-container{
+  background-image:
+    linear-gradient(to left, rgba(255, 255, 255, 0), rgba(17, 121, 218, 0.774)),
+    url('../images/watch.png');
+    border-radius: 10px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.bottom-banner-title{
+  color: aliceblue;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.bottom-banner-text{
+  padding: 50px 70px;
+}
+
+/* footer */
+footer{
+  background-color: black;
+}
+.footer-parent{
+  display: flex;
+  color: aliceblue;
+  padding: 80px;
+}
+.footer-description{
+  padding: 20px 50px 20px 0;
+}
+.footer-phone{
+  margin: 10px 0 15px 0;
+}
+.footer-input{
+  margin: 15px 0 0 0;
+}
